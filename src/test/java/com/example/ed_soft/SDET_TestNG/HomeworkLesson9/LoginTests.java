@@ -1,4 +1,4 @@
-package com.example.ed_soft.SDET_TestNG;
+package com.example.ed_soft.SDET_TestNG.HomeworkLesson9;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -43,7 +43,7 @@ public class LoginTests extends TestSdetTestNgApplication {
         WebElement emailField = driver.findElement(By.id("login-email"));
         WebElement passwordField = driver.findElement(By.id("login-password-input"));
 
-        emailField.sendKeys("username@gmail.com");
+        emailField.sendKeys("3rd1fbslash@gmail.com");
         passwordField.sendKeys("invalidpassword");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

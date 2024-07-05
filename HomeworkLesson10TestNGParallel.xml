@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TrendyolTestSuite" parallel="tests" thread-count="3">
+    <test name="TrendyolTestChrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.example.ed_soft.SDET_TestNG.HomeworkLesson10.IncludeTest" />
+        </classes>
+    </test>
+    <test name="TrendyolTestFirefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.example.ed_soft.SDET_TestNG.HomeworkLesson10.IncludeTest" />
+        </classes>
+    </test>
+    <test name="TrendyolTestEdge">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="com.example.ed_soft.SDET_TestNG.HomeworkLesson10.IncludeTest" />
+        </classes>
+    </test>
+</suite>
+

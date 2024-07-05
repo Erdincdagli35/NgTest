@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TrendyolTestSuite">
+    <test name="TrendyolTest">
+        <classes>
+            <class name="com.example.ed_soft.SDET_TestNG.HomeworkLesson9.LoginTests">
+            </class>
+        </classes>
+    </test>
+</suite>
