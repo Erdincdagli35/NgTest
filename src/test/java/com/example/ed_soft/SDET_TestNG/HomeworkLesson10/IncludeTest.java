@@ -58,7 +58,7 @@ public class IncludeTest extends HomeworkLesson10_Trendyol {
         passwordField.clear();
 
         emailField.sendKeys("3rd1fbslash@gmail.com");
-        passwordField.sendKeys("3rd1fbsl4sh");
+        passwordField.sendKeys("valid");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button.q-primary.q-fluid.q-button-medium.q-button.submit[type='submit']")));
